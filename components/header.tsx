@@ -33,7 +33,6 @@ export default function Header() {
             </div>
             <div>
               <h1 className="text-xl font-bold text-navy">Pankhuri Graphics</h1>
-              <p className="text-xs text-gray-600">Akurdi</p>
             </div>
           </Link>
 
