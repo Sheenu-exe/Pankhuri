@@ -52,11 +52,7 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center space-x-4">
-            <Link href="/contact">
-              <Button className="bg-orange hover:bg-orange/80 text-sand font-semibold border-0 shadow-lg">
-                Request a Quote
-              </Button>
-            </Link>
+           
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
