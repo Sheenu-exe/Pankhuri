@@ -25,7 +25,7 @@ export default function Header() {
       transition={{ duration: 0.6 }}
       className="fixed top-0 w-full z-50 bg-sand/95 backdrop-blur-sm border-b border-gray-100 shadow-sm"
     >
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto w-full px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-navy rounded-lg flex items-center justify-center">
@@ -50,7 +50,7 @@ export default function Header() {
             ))}
           </nav>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex sm:hidden items-center space-x-4">
            
 
             <button

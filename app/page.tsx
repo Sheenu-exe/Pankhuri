@@ -110,26 +110,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative"
             >
-              <div className="relative bg-navy rounded-3xl p-12 shadow-2xl">
-                <div className="absolute top-6 right-6 w-4 h-4 bg-orange rounded-full animate-pulse"></div>
-                <div className="absolute top-6 left-6 w-3 h-3 bg-sand rounded-full"></div>
-                <div className="absolute bottom-6 left-6 w-2 h-2 bg-gray rounded-full"></div>
-
-                <div className="text-center space-y-6">
-                  <div className="w-24 h-24 bg-orange rounded-2xl flex items-center justify-center mx-auto">
-                    <Printer className="w-12 h-12 text-navy" />
-                  </div>
-                  <div className="space-y-2">
-                    <div className="h-3 bg-purple rounded w-3/4 mx-auto"></div>
-                    <div className="h-3 bg-purple rounded w-1/2 mx-auto"></div>
-                  </div>
-                  <div className="flex justify-center space-x-2">
-                    <div className="w-8 h-8 bg-orange rounded-lg"></div>
-                    <div className="w-8 h-8 bg-sand rounded-lg"></div>
-                    <div className="w-8 h-8 bg-purple rounded-lg"></div>
-                  </div>
-                </div>
-              </div>
+         <img className='h-auto w-[90%] flex items-end' src={'/hero.png'} alt="" />
             </motion.div>
           </div>
         </div>
